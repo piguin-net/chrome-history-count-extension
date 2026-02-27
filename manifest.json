@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "HistoryCount",
+  "version": "1.0",
+  "description": "履歴の件数をドメイン毎に集計し、チャートで表示します。",
+  "homepage_url": "https://github.com/piguin-net/chrome-history-count-extension",
+  "icons": {
+    "16": "icon/16.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "permissions": ["history", "sidePanel"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
