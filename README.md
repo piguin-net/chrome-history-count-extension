@@ -6,3 +6,5 @@
 条件として以下を指定できます。  
 * 集計期間(必須)：集計対象とする日付の範囲
 * フィルタ(任意)：履歴のURLまたはタイトルの一部
+
+![Screenshot](https://raw.githubusercontent.com/piguin-net/chrome-history-count-extension/main/screenshot/screenshot.png)
