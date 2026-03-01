@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // 集計期間の初期値として当日日付をセット
-  var today = new Date().toISOString().split("T")[0];
+  var today = new Date(new Date().setMinutes(
+    new Date().getMinutes() - new Date().getTimezoneOffset()
+  )).toISOString().split("T")[0];
   document.querySelector("#startTime").value = today;
   document.querySelector("#endTime").value = today;
   // 検索ボタン
